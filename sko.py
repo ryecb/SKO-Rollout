@@ -11,7 +11,7 @@ class Flags:
         self.enableTutorial = RoxFlag(False)
         self.titleColors = RoxVariant('White', ['White', 'Blue', 'Green', 'Yellow'])
         self.myName = RoxVariant('Michelle', ['Michelle', 'Summer', 'Ryan'])
-        #self.skoFlag = RoxVariant('SKO', ['SKO', 'Jenkins World', 'DevOps World'])
+        self.skoFlag = RoxVariant('SKO', ['SKO', 'Jenkins World', 'DevOps World'])
 
 flags = Flags()
 
