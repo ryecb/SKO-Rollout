@@ -1,0 +1,16 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5e4ed26fff09bf85cc0ddf3e
+type: experiment
+name: my name
+enabled: false
+flag: default.myName
+availableValues:
+  - Summer
+  - Ryan
+  - Michelle
+conditions:
+  - group:
+      operator: nor
+      name: iphone users
+    value: Summer
+value: Ryan
